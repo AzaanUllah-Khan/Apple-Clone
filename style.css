@@ -1,0 +1,307 @@
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .hello{
+            color: rgba(255, 255, 255,0.7);
+            font-size: 15px;
+            margin-top: -6px;
+            transition: all 1s ease 0s;
+        }
+        .hello:hover{
+            color: rgba(255, 255, 255,1);
+            cursor: pointer;
+        }
+        .sub{
+            list-style: none;
+            padding-top: 15px;
+            color: rgba(255, 255, 255,0.7);
+            font-size: 15px;
+            transition: all 1s ease 0s;
+        }
+        .sub:hover{
+            color: rgba(255, 255, 255,1);
+            cursor: pointer;
+        }
+        .topics{
+            background-color: black;
+            margin: auto;
+            width: 1183px;
+            display: flex;
+            margin-top: -8px;
+            height: 44px;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .nav{
+            width: 1280px;
+            background-color: black;
+            align-items: center;
+            margin-left: -8px;
+            position: fixed;
+            top: 0px;
+        }
+        .announcement{
+            background-color: black;
+            color: white;
+            font-size: 56px;
+            width: 1183px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+        }
+        .play-button{
+            border: 5px solid transparent;
+            border-image: url(https://media.istockphoto.com/id/1203084161/photo/purple-blue-and-orange-blurred-abstract-background.jpg?s=612x612&w=0&k=20&c=mGK0Yq126HLsmmoxPYRV1pxyyd5TTFGtMW9J8M7Ampk=) 30;
+            background-color: black;
+            padding: 10px 20px;
+            color: white;
+            font-size: 20px;
+            transition: all 1s ease-in 0s;
+        }
+        .play-button:hover{
+            background-color: white;
+            border-radius: 40px;
+            cursor: pointer;
+            color: black;
+            border: 5px solid white;
+        }
+        .mac{
+            background-color: black;
+            color: white;
+            width: 1183px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            line-height: 25px;
+        }
+        .mac a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .mac a:hover{
+            text-decoration: underline;
+        }
+        .mac-mini{
+            background-color: black;
+            color: white;
+            width: 1183px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            line-height: 25px;
+        }
+        .mac-mini a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .mac-mini a:hover{
+            text-decoration: underline;
+        }
+        .mac-mini img{
+            display: block;
+            margin-left: 300px;
+            width: 605px;
+        }
+        .homepod{
+            background-color: black;
+            color: white;
+            width: 1183px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            line-height: 25px;
+        }
+        .homepod a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .homepod a:hover{
+            text-decoration: underline;
+        }
+        .homepod img{
+            display: block;
+            margin-left: 200px;
+            width: 800px;
+            margin-bottom: -80px;
+        }
+        .watch{
+            background-color: black;
+            color: white;
+            width: 535px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border: 10px solid white;
+            display: inline-block;
+            left: -8px;
+        }
+        .watch a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .watch a:hover{
+            text-decoration: underline;
+        }
+        .watch img{
+            display: block;
+            width: 555px;
+            margin-bottom: -80px;
+            margin-top: 20px;
+            margin-left: -10px;
+        }
+        .watch1{
+            background-color: black;
+            color: white;
+            width: 548px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            float: right;
+            height: 663px;
+        }
+        .watch1 a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .watch1 a:hover{
+            text-decoration: underline;
+        }
+        .watch1 img{
+            display: block;
+            width: 590px;
+            margin-top: 40px;
+            margin-left: -10px;
+            height: 420px;
+        }
+        .iphone-pro{
+            background-color: black;
+            color: white;
+            width: 545px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            float: left;
+            height: 663px;
+        }
+        .iphone-pro a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .iphone-pro a:hover{
+            text-decoration: underline;
+        }
+        .iphone-pro img{
+            display: block;
+            width: 590px;
+            margin-top: 50px;
+            margin-left: -10px;
+            height: 450px;
+        }
+        .iphone{
+            background-color: rgb(249, 249, 249);
+            color: black;
+            width: 540px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            float: right;
+            height: 663px;
+        }
+        .iphone a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .iphone a:hover{
+            text-decoration: underline;
+        }
+        .iphone img{
+            display: block;
+            width: 590px;
+            margin-top: 50px;
+            margin-left: -10px;
+            height: 450px;
+        }
+        .ipad{
+            background-color: rgb(245, 245, 245);
+            color: black;
+            width: 545px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            float: left;
+            height: 663px;
+        }
+        .ipad a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .ipad a:hover{
+            text-decoration: underline;
+        }
+        .ipad img{
+            display: block;
+            width: 590px;
+            margin-top: 20px;
+            margin-left: -10px;
+            height: 450px;
+        }
+        .privacy{
+            background-color: black;
+            color: white;
+            width: 540px;
+            text-align: center;
+            margin: auto;
+            padding: 85px 40px;
+            margin-left: -8px;
+            border-top: 10px solid white;
+            float: right;
+            height: 663px;
+        }
+        .privacy a{
+            color: #29f;
+            text-decoration: none;
+            font-size: 27px;
+        }
+        .privacy a:hover{
+            text-decoration: underline;
+        }
+        .privacy img{
+            display: block;
+            width: 590px;
+            margin-bottom: -80px;
+            margin-top: 20px;
+            margin-left: -10px;
+        }
+        .credits{
+            background-color: red;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+            bottom: -8px;
+        }
